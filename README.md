@@ -1,3 +1,7 @@
+# Bamboo GitLab Plugin
+
+The Bamboo GitLab Plugin provides support for accessing [GitLab](http://gitlab.org/) from within [Atlassian Bamboo](https://www.atlassian.com/software/bamboo).
+
 # TODO
 
 *   real license
