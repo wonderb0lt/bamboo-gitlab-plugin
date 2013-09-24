@@ -3,8 +3,12 @@
         <description>${project.description}</description>
         <version>${project.version}</version>
         <vendor name="${project.organization.name}" url="${project.organization.url}" />
+        <!--
         <param name="plugin-icon">images/pluginIcon.png</param>
         <param name="plugin-logo">images/pluginLogo.png</param>
+        -->
+        <param name="plugin-icon">images/favicon.png</param>
+        <param name="plugin-logo">images/logo-white.png</param>
     </plugin-info>
 
     <webRepositoryViewer key="com.commercehub.bamboo.plugins.gitlab.webRepositoryViewer" name="GitLab"

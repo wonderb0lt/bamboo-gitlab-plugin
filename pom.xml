@@ -10,12 +10,13 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <organization>
-        <name>Example Company</name>
-        <url>http://www.example.com/</url>
+        <name>CommerceHub</name>
+        <url>http://www.commercehub.com/</url>
     </organization>
 
-    <name>gitlab</name>
-    <description>This is the com.commercehub.bamboo.plugins:gitlab plugin for Atlassian Bamboo.</description>
+    <name>GitLab Plugin</name>
+    <description>Plugin to allow easy links from Atlassian Bamboo to repositories hosted in GitLab.</description>
+    <url>https://github.com/commercehub-oss/bamboo-gitlab-plugin</url>
     <packaging>atlassian-plugin</packaging>
 
     <properties>

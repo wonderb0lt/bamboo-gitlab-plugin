@@ -5,7 +5,6 @@ The Bamboo GitLab Plugin provides support for accessing [GitLab](http://gitlab.o
 # TODO
 
 *   real readme
-*   real icons
 
 # Tool instructions
 
