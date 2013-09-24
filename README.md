@@ -6,10 +6,6 @@ The Bamboo GitLab Plugin provides support for accessing [GitLab](http://gitlab.o
 
 *   real readme
 *   real icons
-*   add a web repository viewer module
-    *   https://developer.atlassian.com/display/BAMBOODEV/Web+Repository+Viewer+Module
-    *   https://github.com/andypols/github-web-repository-viewer-bamboo-plugin
-*   clean up
 
 # Tool instructions
 
