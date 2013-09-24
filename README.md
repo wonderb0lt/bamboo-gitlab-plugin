@@ -1,23 +1,11 @@
 # Bamboo GitLab Plugin
 
-The Bamboo GitLab Plugin provides support for accessing [GitLab](http://gitlab.org/) from within [Atlassian Bamboo](https://www.atlassian.com/software/bamboo).
+The Bamboo GitLab Plugin allow easy links from [Atlassian Bamboo](https://www.atlassian.com/software/bamboo) to repositories hosted in [GitLab](http://gitlab.org/).
 
-# TODO
+# Usage
 
-*   real readme
+After installing the plugin, go to the configuration of a Git repository for a build plan.  In the `Advanced options` section, select `GitLab` as the `Web repository`.  Enter a `Web Repository URL` and click `Save repository`.  Commits for that plan should now be properly linked.
 
-# Tool instructions
+# Caveats
 
-You have successfully created an Atlassian Plugin!
-
-Here are the SDK commands you'll use immediately:
-
-* atlas-run   -- installs this plugin into the product and starts it on localhost
-* atlas-debug -- same as atlas-run, but allows a debugger to attach at port 5005
-* atlas-cli   -- after atlas-run or atlas-debug, opens a Maven command line window:
-                 - 'pi' reinstalls the plugin into the running product instance
-* atlas-help  -- prints description for all commands in the SDK
-
-Full documentation is always available at:
-
-https://developer.atlassian.com/display/DOCS/Introduction+to+the+Atlassian+Plugin+SDK
+Over time, the URLs used by GitLab may change.  This plugin has currently only been tested with GitLab 5.2.0.
