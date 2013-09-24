@@ -28,5 +28,12 @@
     
     <!-- import from the product container -->
     <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties" />
+
+    <webRepositoryViewer key="com.commercehub.bamboo.plugins.gitlab.webRepositoryViewer" name="GitLab"
+                         class="com.commercehub.bamboo.plugins.gitlab.GitLabWebRepositoryViewer">
+        <description>Renders GitLab links for commits</description>
+        <resource type="freemarker" name="edit" location="com/commercehub/bamboo/plugins/gitlab/repositoryViewerEdit.ftl"/>
+        <!-- TODO cleanup -->
+    </webRepositoryViewer>
     
 </atlassian-plugin>
