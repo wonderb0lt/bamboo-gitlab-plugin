@@ -1,13 +1,11 @@
 language: java
-jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk7
-  - openjdk6
+jdk: openjdk6
+branches:
+  only:
+    - master
+install: true
+script: "[ ${TRAVIS_PULL_REQUEST} = 'false' ] && ./mvnw clean deploy || ./mvnw clean verify"
 env:
   global:
-    - MAVEN_URL=http://apache.mirrors.pair.com/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz
-install:
-  - wget -O - $MAVEN_URL | sudo tar xvz -C /usr/local
-  - sudo rm /usr/local/maven
-  - sudo ln -s /usr/local/apache-maven-3.0.5 /usr/local/maven
+  - secure: SBFXj1j08+MHhV5IHGCD/MzX8RRJEJ0/ja/hI7hv7nmVvIXhr4CP7NUskYJK039h/U2wNBdN+fdnm1cp3IchB5G1WvNe/H6RemcplI4xIrs70qa5a2wwudg7drN5CMzS1riJN4Qo8nYko4olu49ztSWKdJicWXprdYJubSf1+sM=
+  - secure: vhtn40p+mM3FvlMlKmz5xBFDHGxrC4BX/6JxKEpKRVdzmV/WXkFnDQYu/suBkTHd7+Z0u06L5d0rrP4pVGtm4vaK/v7pU+2XPmafyZx1S67sOq+r67PVnwq4ZTi1lyI9HT8nt+rZQWU9IrXb8GBEU/rxbBzblER7GZVnOvocsF8=
