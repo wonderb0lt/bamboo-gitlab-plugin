@@ -4,6 +4,7 @@ The Bamboo GitLab Plugin allows easy links from [Atlassian Bamboo](https://www.a
 
 [![Build Status](https://travis-ci.org/commercehub-oss/bamboo-gitlab-plugin.svg?branch=master)](https://travis-ci.org/commercehub-oss/bamboo-gitlab-plugin)
 [![Project Status](http://stillmaintained.com/commercehub-oss/bamboo-gitlab-plugin.png)](http://stillmaintained.com/commercehub-oss/bamboo-gitlab-plugin)
+[![Download](https://api.bintray.com/packages/commercehub-oss/main/bamboo-gitlab-plugin/images/download.png)](https://bintray.com/commercehub-oss/main/bamboo-gitlab-plugin/_latestVersion)
 
 # Usage
 
