@@ -12,7 +12,7 @@ After installing the plugin, go to the configuration of a Git repository for a b
 
 # Caveats
 
-Over time, the URLs used by GitLab may change.  This plugin has currently only been tested with GitLab 5.2.0.
+Over time, the URLs used by GitLab may change.  This plugin currently only works with Gitlab 6.7.5.
 
 # Building
 

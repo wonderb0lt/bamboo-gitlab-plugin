@@ -17,6 +17,7 @@ package com.commercehub.bamboo.plugins.gitlab;
 
 import com.atlassian.bamboo.commit.Commit;
 import com.atlassian.bamboo.commit.CommitFile;
+import com.atlassian.bamboo.repository.BranchAwareRepository;
 import com.atlassian.bamboo.repository.RepositoryData;
 import com.atlassian.bamboo.utils.error.ErrorCollection;
 import com.atlassian.bamboo.webrepository.DefaultWebRepositoryViewer;
@@ -78,13 +79,14 @@ public class GitLabWebRepositoryViewer extends DefaultWebRepositoryViewer {
     @Nullable
     @Override
     public String getWebRepositoryUrlForFile(@NotNull CommitFile file, RepositoryData repositoryData) {
-        return urlConcat(getWebRepositoryUrl(), "blob/master/", file.getName());
+        BranchAwareRepository branchAware = (BranchAwareRepository) repositoryData.getRepository();
+        return urlConcat(getWebRepositoryUrl(), "blob/" + branchAware.getVcsBranch().getName() + "/", file.getName());
     }
 
     @Nullable
     @Override
     public String getWebRepositoryUrlForRevision(CommitFile file, RepositoryData repositoryData) {
-        return urlConcat(getWebRepositoryUrl(), "blob/", file.getRevision(), "/", file.getName());
+        return urlConcat(getWebRepositoryUrl(), "commit/", file.getRevision());
     }
 
     @Nullable

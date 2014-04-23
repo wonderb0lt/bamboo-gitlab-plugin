@@ -103,8 +103,8 @@
                         <configuration>
                             <publisher>
                                 <contextUrl>https://oss.jfrog.org</contextUrl>
-                                <username>${env.OJO_USERNAME}</username>
-                                <password>${env.OJO_PASSWORD}</password>
+                                <username>What is this for?</username>
+                                <password>I wonder, sometimes...</password>
                                 <repoKey>libs-releases-local</repoKey>
                                 <snapshotRepoKey>libs-snapshots-local</snapshotRepoKey>
                             </publisher>
