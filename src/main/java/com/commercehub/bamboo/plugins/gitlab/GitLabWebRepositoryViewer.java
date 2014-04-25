@@ -80,7 +80,7 @@ public class GitLabWebRepositoryViewer extends DefaultWebRepositoryViewer {
     @Override
     public String getWebRepositoryUrlForFile(@NotNull CommitFile file, RepositoryData repositoryData) {
         BranchAwareRepository branchAware = (BranchAwareRepository) repositoryData.getRepository();
-        return urlConcat(getWebRepositoryUrl(), "blob/" + branchAware.getVcsBranch().getName() + "/", file.getName());
+        return urlConcat(getWebRepositoryUrl(), "blob/" + file.getRevision() + "/", file.getName());
     }
 
     @Nullable
