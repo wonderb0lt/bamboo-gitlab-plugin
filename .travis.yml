@@ -1,4 +1,4 @@
 language: java
 jdk: openjdk6
 install: true
-script: "mvn clean verify"
+script: "./mvnw clean verify"

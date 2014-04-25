@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.patrickstegmann.bamboo.plugins</groupId>
     <artifactId>gitlab</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-wonderb0lt</version>
 
     <name>GitLab Plugin</name>
     <description>Plugin to allow easy links from Atlassian Bamboo to repositories hosted in GitLab.</description>
