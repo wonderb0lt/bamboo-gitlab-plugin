@@ -2,8 +2,3 @@ language: java
 jdk: openjdk6
 install: true
 script: "mvn clean verify"
-after_success: "mvn deploy"
-env:
-  global:
-  - secure: SBFXj1j08+MHhV5IHGCD/MzX8RRJEJ0/ja/hI7hv7nmVvIXhr4CP7NUskYJK039h/U2wNBdN+fdnm1cp3IchB5G1WvNe/H6RemcplI4xIrs70qa5a2wwudg7drN5CMzS1riJN4Qo8nYko4olu49ztSWKdJicWXprdYJubSf1+sM=
-  - secure: vhtn40p+mM3FvlMlKmz5xBFDHGxrC4BX/6JxKEpKRVdzmV/WXkFnDQYu/suBkTHd7+Z0u06L5d0rrP4pVGtm4vaK/v7pU+2XPmafyZx1S67sOq+r67PVnwq4ZTi1lyI9HT8nt+rZQWU9IrXb8GBEU/rxbBzblER7GZVnOvocsF8=
