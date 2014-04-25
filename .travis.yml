@@ -1,8 +1,8 @@
 language: java
 jdk: openjdk6
 install: true
-script: "./mvnw clean verify"
-after_success: "[[ $TRAVIS_BRANCH == 'master' ]] && [[ $TRAVIS_PULL_REQUEST == 'false' ]] && ./mvnw deploy"
+script: "mvn clean verify"
+after_success: "mvn deploy"
 env:
   global:
   - secure: SBFXj1j08+MHhV5IHGCD/MzX8RRJEJ0/ja/hI7hv7nmVvIXhr4CP7NUskYJK039h/U2wNBdN+fdnm1cp3IchB5G1WvNe/H6RemcplI4xIrs70qa5a2wwudg7drN5CMzS1riJN4Qo8nYko4olu49ztSWKdJicWXprdYJubSf1+sM=
