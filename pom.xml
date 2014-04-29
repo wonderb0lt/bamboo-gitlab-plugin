@@ -15,11 +15,12 @@
     <packaging>atlassian-plugin</packaging>
 
     <properties>
-        <bamboo.version>5.1.1</bamboo.version>
+        <bamboo.version>5.5.0</bamboo.version>
         <bamboo.data.version>3.2.2</bamboo.data.version>
-        <amps.version>4.2.9</amps.version>
-        <plugin.testrunner.version>1.1.1</plugin.testrunner.version>
+        <amps.version>4.2.20</amps.version>
+        <plugin.testrunner.version>1.1.4</plugin.testrunner.version>
     </properties>
+
 
     <dependencies>
         <dependency>
