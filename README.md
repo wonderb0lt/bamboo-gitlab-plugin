@@ -3,7 +3,6 @@
 The Bamboo GitLab Plugin allows easy links from [Atlassian Bamboo](https://www.atlassian.com/software/bamboo) to repositories hosted in [GitLab](http://gitlab.org/).
 
 [![Build Status](https://travis-ci.org/wonderb0lt/bamboo-gitlab-plugin.svg?branch=master)](https://travis-ci.org/wonderb0lt/bamboo-gitlab-plugin)
-[![Project Status](http://stillmaintained.com/wonderb0lt/bamboo-gitlab-plugin.png)](http://stillmaintained.com/wonderb0lt/bamboo-gitlab-plugin)
 
 # Installation
 
